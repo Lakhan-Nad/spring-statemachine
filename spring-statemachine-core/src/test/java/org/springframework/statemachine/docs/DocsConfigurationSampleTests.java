@@ -1015,7 +1015,7 @@ public class DocsConfigurationSampleTests extends AbstractStateMachineTests {
 					.end(States2.SF)
 					.and()
 					.withStates()
-						.parent(States2.S3)
+						.parent(States2.S2)
 						.initial(States2.S2I)
 						.state(States2.S21)
 						.state(States2.S22)
